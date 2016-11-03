@@ -1,0 +1,90 @@
+.timer {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	height: : 60px;
+	width: 100%;
+	border-top : 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 60px;
+	display: block;
+}
+
+.container {
+	padding-top: 30px;
+	width: 470px;
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.box-time {
+	width: 100%;
+	height: 225px;
+	position: relative;
+	display: flex;
+
+}
+.main {
+	text-align: center;
+	font-size: 66px;
+	margin: auto;
+
+}
+.add {
+	position: absolute;
+	top: 40px;
+	left: 275px;
+	font-size: 20px;
+	color: #bfbfbf;
+
+}
+.controls {
+	width: 100%;
+	height: 600px;
+	background-color: #f0eff5;
+}
+button {
+	border-radius: 50%;
+	background-color: #fff;
+	height: 95px;
+	width: 95px;
+	margin-left: 72px;
+	margin-top: 20px;
+	float: left;
+	border: 1px;
+
+}
+
+.btn + .btn {
+	float: right;
+	margin-right: 72px;
+	color: grey;
+}
+
+.box-line {
+	clear: both;
+	width: 100%;
+	margin-top: 60px;
+}
+.box-line > span {
+	display: block;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+	border-bottom: 1px solid #d7d6dc;
+
+}
+.btn-box::after{
+ content: '';
+ clear: both;
+ display: block;
+ width: 1%;
+}
+
+#results {
+ margin-left: 20px;
+ margin-top: 40px;
+}
